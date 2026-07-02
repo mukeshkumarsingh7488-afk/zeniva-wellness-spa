@@ -20,16 +20,16 @@ export default function Footer() {
               <p>Experience premium wellness therapies, luxury spa treatments, body scrubs and relaxing massage services in Whitefield, Bengaluru.</p>
 
               <div className="zn-footer-social">
-                <a href={BUSINESS.social.facebook || "#"} target="_blank" rel="noreferrer" aria-label="Facebook">
+                <a href={BUSINESS.social.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                   <FacebookIcon />
                 </a>
-                <a href={BUSINESS.social.instagram || "#"} target="_blank" rel="noreferrer" aria-label="Instagram">
+                <a href={BUSINESS.social.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                   <InstagramIcon />
                 </a>
-                <a href={BUSINESS.social.twitter || "#"} target="_blank" rel="noreferrer" aria-label="X">
+                <a href={BUSINESS.social.twitter} target="_blank" rel="noopener noreferrer" aria-label="X">
                   <XIcon />
                 </a>
-                <a href={BUSINESS.social.youtube || "#"} target="_blank" rel="noreferrer" aria-label="YouTube">
+                <a href={BUSINESS.social.youtube} target="_blank" rel="noopener noreferrer" aria-label="YouTube">
                   <YouTubeIcon />
                 </a>
               </div>

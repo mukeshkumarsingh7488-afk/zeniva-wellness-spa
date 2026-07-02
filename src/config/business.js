@@ -19,10 +19,10 @@ export const BUSINESS = {
   mapUrl: "https://www.google.com/maps?q=Immadihalli%20Main%20Rd%2C%20Immadihalli%2C%20Whitefield%2C%20Bengaluru%2C%20Karnataka%20560066&output=embed",
 
   social: {
-    instagram: "#",
-    facebook: "#",
-    youtube: "#",
-    twitter: "#",
+    instagram: "https://instagram.com",
+    facebook: "https://facebook.com",
+    youtube: "https://youtube.com",
+    twitter: "https://x.com",
   },
 
   seo: {
