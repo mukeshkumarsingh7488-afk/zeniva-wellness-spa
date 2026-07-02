@@ -35,3 +35,77 @@ select {
   background: #d4af37;
   color: #111;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #0d0615;
+}
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+::selection {
+  background: #d4af37;
+  color: #111;
+}
+/* ===========================
+   Global Copy Protection
+=========================== */
+
+*,
+*::before,
+*::after {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Images can't be dragged */
+img {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Buttons & Links */
+a,
+button {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Inputs should still work */
+input,
+textarea,
+select {
+  -webkit-user-select: text;
+  user-select: text;
+}
